@@ -1,0 +1,96 @@
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: var(--main-color);
+    position: relative;
+}
+
+header .header-logo{
+    width: 130px;
+    height: 50px;
+    background-color: red;
+}
+
+.search-form{
+    position: relative;
+}
+
+.search-form input{
+    width: 490px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid var(--white-color);
+    border-radius: 50px;
+    background-color: inherit;
+    color: var(--white-color);
+}
+
+.search-form .search-icon{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+
+header .icon-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 162px;
+}
+
+.icon-container .main-icon{
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.icon-container .weather{
+    width: 104px;
+    height: 30px;
+    border-bottom: 1px solid var(--white-color);
+}
+
+.weather .weather-icon{
+    padding: 3px 0;
+}
+
+header .menu-container{
+    width: 180px;
+    height: 192px;
+    border-radius: 0 0 5px 5px;
+    background-color: red;
+    position: absolute;
+    bottom: -192px;
+    right: 100px;
+    display: none;
+}
+
+.menu-container ul{
+    width: 130px;
+    height: 158px;
+    margin: 17px auto;
+}
+
+.menu-container ul li{
+    padding: 6px 6px;
+    border-bottom: 1px solid var(--main-color-blur);
+}
+
+.menu-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* JS */
+.active{
+    display: block;
+}

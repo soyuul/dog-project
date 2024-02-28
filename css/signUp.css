@@ -1,0 +1,67 @@
+header{
+    background-color: var(--main-color);
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+}
+
+nav .header-logo{
+    width: 130px;
+    height: 50px;
+    margin: 10px 50px;
+    background-color: red;
+}
+
+form{
+    width: 400px;
+    height: 490px; 
+    margin: 120px auto;
+}
+
+.form-logo{
+    width: 130px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.sign-up-container{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 37px;
+    margin: 50px 0 35px 0;
+    font-size: 20px;
+    color: var(--main-color-blur);
+    border-bottom: 1px solid var(--main-color-blur);
+}
+
+.sign-up-container span{
+    width: 136px;
+    text-align: center;
+}
+
+.sign-up-container span:nth-child(1){
+    border-bottom: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+
+.contents{
+    height: 450px;
+    margin-bottom: 30px;
+    overflow: scroll;
+}
+
+.clause-contents{
+    border-bottom: 1px solid var(--main-color-blur);
+}
+
+.clause-contents div:nth-child(2){
+    margin: 20px 0;
+}
+
+.clause-contents02{
+    margin: 35px 0;
+}
